@@ -1,7 +1,8 @@
-function App() {
+ import { Widget } from "./components/Widget"
+ export function App() {
   return (
     <div >
-      <p>Hello world</p>
+      <Widget/>
     </div>
   )
 }
